@@ -1,0 +1,1 @@
+curl -H 'Content-type: application/json' --data-raw '["test.email@gmail.com", "test.email+spam@gmail.com", "testemail@gmail.com", "test.email+@gmail.com", "test.e.mail+SPAM@gmail.com", "unique.email@gmail.com"]' localhost:3000/emails
